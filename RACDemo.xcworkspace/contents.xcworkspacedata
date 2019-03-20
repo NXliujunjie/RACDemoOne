@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RAC_PDF">
+   </FileRef>
+   <FileRef
       location = "group:RACDemo.xcodeproj">
    </FileRef>
    <FileRef

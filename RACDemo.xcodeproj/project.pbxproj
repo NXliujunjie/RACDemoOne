@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6EB9CC4C5608A1A4ACD1F3E1 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE168329FEAD54AB5744A1 /* libPods-RACDemo.a */; };
+		83767E6A224231310004D3E4 /* RACBingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83767E69224231310004D3E4 /* RACBingVC.m */; };
 		83A56CE3223F850500A1A164 /* RACUsagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CE2223F850500A1A164 /* RACUsagVC.m */; };
 		83A56CE9223F86C400A1A164 /* UsageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CE8223F86C400A1A164 /* UsageView.m */; };
 		83A56CED22407E0D00A1A164 /* RACTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CEC22407E0D00A1A164 /* RACTimerVC.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83767E68224231310004D3E4 /* RACBingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACBingVC.h; sourceTree = "<group>"; };
+		83767E69224231310004D3E4 /* RACBingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACBingVC.m; sourceTree = "<group>"; };
 		83A56CE1223F850500A1A164 /* RACUsagVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACUsagVC.h; sourceTree = "<group>"; };
 		83A56CE2223F850500A1A164 /* RACUsagVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACUsagVC.m; sourceTree = "<group>"; };
 		83A56CE7223F86C400A1A164 /* UsageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsageView.h; sourceTree = "<group>"; };
@@ -117,6 +120,15 @@
 				E8AE925BFE8BB881029FDDEC /* Pods-RACDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		83767E67224230FE0004D3E4 /* 8.RACBind */ = {
+			isa = PBXGroup;
+			children = (
+				83767E68224231310004D3E4 /* RACBingVC.h */,
+				83767E69224231310004D3E4 /* RACBingVC.m */,
+			);
+			path = 8.RACBind;
 			sourceTree = "<group>";
 		};
 		83A56CE0223F84C100A1A164 /* 4.RACUsage */ = {
@@ -202,6 +214,7 @@
 		83F7987A223B915C00EA7D99 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				83767E67224230FE0004D3E4 /* 8.RACBind */,
 				83A56CF52240B4E300A1A164 /* 7.RACCommand */,
 				83A56CEE2240878100A1A164 /* 6. RACMulticastConnection */,
 				83F798AD223F31D400EA7D99 /* 1.RACSignal */,
@@ -415,6 +428,7 @@
 			files = (
 				83F79880223B915C00EA7D99 /* ViewController.m in Sources */,
 				83CE4EF02240DF9600C773CB /* RACCommandViewModel.m in Sources */,
+				83767E6A224231310004D3E4 /* RACBingVC.m in Sources */,
 				83A56CF82240B50100A1A164 /* RACCommandVC.m in Sources */,
 				83F798B0223F320400EA7D99 /* RACSignalVC.m in Sources */,
 				83F7988B223B915D00EA7D99 /* main.m in Sources */,
