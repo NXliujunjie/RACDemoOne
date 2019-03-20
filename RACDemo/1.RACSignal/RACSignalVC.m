@@ -7,6 +7,7 @@
 //
 
 #import "RACSignalVC.h"
+#import "ReactiveObjC.h"
 
 @interface RACSignalVC ()
 
@@ -16,17 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //创建信号量
+    RACSignal *single = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+        NSLog(@"创建信号量");
+        [subscriber sendNext:@"Im send next data"];
+        NSLog(@"那我啥时候运行");
+        return nil;
+    }];
+    
+    //订阅信号
+    [single subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

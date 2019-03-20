@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, copy) NSString *str;
+@property (nonatomic, copy) NSString *strs;
 @end
 
