@@ -10,7 +10,9 @@
 #import "ReactiveObjC.h"
 #import "RACCommandViewModel.h"
 
-@interface RACCommandVC ()
+@interface RACCommandVC () {
+    int tag;
+}
 @property (nonatomic, strong, readwrite) RACCommandViewModel *viewModel;
 @property (nonatomic, strong, readwrite) UIButton *btn;
 @property (nonatomic, strong, readwrite) UITextView *textView;
@@ -30,7 +32,9 @@
     //[self RACCommandOne];
     //[self RACCommandTwo];
     //[self RACCommandThree];
-    [self RACCommand_One];
+    //[self RACCommand_One];
+    
+    tag = 1;
 }
 
 /**
@@ -190,13 +194,20 @@
         }
     }];
     
-    RAC(self.textView, text) = [[RACObserve(_viewModel, data) skip:1]map:^id _Nullable(NSString *value) {
+    RAC(self.textView, text) = [[RACObserve(_viewModel, data) skip:1] map:^id _Nullable(NSString *value) {
         return value;
     }];
     
     [[_btn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         @strongify(self)
-        [self.viewModel.requestData execute:@"96671e1a812e46dfa4264b9b39f3e225"];
+        self->tag ++;
+        if (self->tag == 1) {
+            [self.viewModel.requestData execute:@"1"];
+        }else if (self->tag == 2){
+             [self.viewModel.requestData execute:@"2"];
+        }else{
+            [self.viewModel.requestData execute:@"3"];
+        }
     }];
 }
 

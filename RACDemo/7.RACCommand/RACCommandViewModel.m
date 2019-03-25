@@ -31,7 +31,7 @@
             //NSDictionary *body = @{@"memberCode": input};
             // 进行网络操作，同时将这个操作封装成信号 return
             return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
-                [subscriber sendNext:@"网络请求回来的数据"];
+                [subscriber sendNext:input];
                 [subscriber sendCompleted];//告诉外界发送完了
                  return nil;
             }];

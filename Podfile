@@ -10,4 +10,9 @@ inhibit_all_warnings!
 
 target 'RACDemo' do 
     pod 'ReactiveObjC', '~> 3.0.0'
+    pod "AFNetworking", '3.1.0'
+    pod "MJRefresh", '3.1.12'
+    pod 'Masonry', '1.0.2'
+    pod 'MMProgressHUD', '0.3.2'
+    pod 'SDWebImage', '3.8.2'
 end

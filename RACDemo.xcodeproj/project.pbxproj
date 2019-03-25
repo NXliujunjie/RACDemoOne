@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6EB9CC4C5608A1A4ACD1F3E1 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE168329FEAD54AB5744A1 /* libPods-RACDemo.a */; };
+		830F1AA02248645B00C409A9 /* LiftSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1A9F2248645B00C409A9 /* LiftSelectorVC.m */; };
+		830F1AA42248694700C409A9 /* FlatterAndMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AA32248694700C409A9 /* FlatterAndMapVC.m */; };
+		830F1AA82248735D00C409A9 /* FiltrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AA72248735D00C409A9 /* FiltrationVC.m */; };
+		830F1AAC22489D8700C409A9 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AAB22489D8700C409A9 /* MVVMView.m */; };
+		830F1AAF22489D9B00C409A9 /* MVVMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AAE22489D9B00C409A9 /* MVVMVC.m */; };
+		8367CAA72248B1510024316D /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAA62248B1510024316D /* MVVMViewModel.m */; };
+		83741B4222432F0200D767A9 /* RACTupleAndSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 83741B4122432F0200D767A9 /* RACTupleAndSequence.m */; };
 		83767E6A224231310004D3E4 /* RACBingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83767E69224231310004D3E4 /* RACBingVC.m */; };
 		83A56CE3223F850500A1A164 /* RACUsagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CE2223F850500A1A164 /* RACUsagVC.m */; };
 		83A56CE9223F86C400A1A164 /* UsageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CE8223F86C400A1A164 /* UsageView.m */; };
@@ -46,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830F1A9E2248645B00C409A9 /* LiftSelectorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftSelectorVC.h; sourceTree = "<group>"; };
+		830F1A9F2248645B00C409A9 /* LiftSelectorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiftSelectorVC.m; sourceTree = "<group>"; };
+		830F1AA22248694700C409A9 /* FlatterAndMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlatterAndMapVC.h; sourceTree = "<group>"; };
+		830F1AA32248694700C409A9 /* FlatterAndMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlatterAndMapVC.m; sourceTree = "<group>"; };
+		830F1AA62248735D00C409A9 /* FiltrationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltrationVC.h; sourceTree = "<group>"; };
+		830F1AA72248735D00C409A9 /* FiltrationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltrationVC.m; sourceTree = "<group>"; };
+		830F1AAA22489D8700C409A9 /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		830F1AAB22489D8700C409A9 /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		830F1AAD22489D9B00C409A9 /* MVVMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMVC.h; sourceTree = "<group>"; };
+		830F1AAE22489D9B00C409A9 /* MVVMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMVC.m; sourceTree = "<group>"; };
+		8367CAA52248B1510024316D /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		8367CAA62248B1510024316D /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		83741B4022432F0200D767A9 /* RACTupleAndSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTupleAndSequence.h; sourceTree = "<group>"; };
+		83741B4122432F0200D767A9 /* RACTupleAndSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTupleAndSequence.m; sourceTree = "<group>"; };
 		83767E68224231310004D3E4 /* RACBingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACBingVC.h; sourceTree = "<group>"; };
 		83767E69224231310004D3E4 /* RACBingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACBingVC.m; sourceTree = "<group>"; };
 		83A56CE1223F850500A1A164 /* RACUsagVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACUsagVC.h; sourceTree = "<group>"; };
@@ -120,6 +141,55 @@
 				E8AE925BFE8BB881029FDDEC /* Pods-RACDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		830F1A9D2248640900C409A9 /* 10.rac_liftSelector */ = {
+			isa = PBXGroup;
+			children = (
+				830F1A9E2248645B00C409A9 /* LiftSelectorVC.h */,
+				830F1A9F2248645B00C409A9 /* LiftSelectorVC.m */,
+			);
+			path = 10.rac_liftSelector;
+			sourceTree = "<group>";
+		};
+		830F1AA12248690800C409A9 /* 11. FlattenMapAndMap */ = {
+			isa = PBXGroup;
+			children = (
+				830F1AA22248694700C409A9 /* FlatterAndMapVC.h */,
+				830F1AA32248694700C409A9 /* FlatterAndMapVC.m */,
+			);
+			path = "11. FlattenMapAndMap";
+			sourceTree = "<group>";
+		};
+		830F1AA5224872F200C409A9 /* 12.过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				830F1AA62248735D00C409A9 /* FiltrationVC.h */,
+				830F1AA72248735D00C409A9 /* FiltrationVC.m */,
+			);
+			path = "12.过滤";
+			sourceTree = "<group>";
+		};
+		830F1AA922489D2D00C409A9 /* 13.MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				830F1AAA22489D8700C409A9 /* MVVMView.h */,
+				830F1AAB22489D8700C409A9 /* MVVMView.m */,
+				830F1AAD22489D9B00C409A9 /* MVVMVC.h */,
+				830F1AAE22489D9B00C409A9 /* MVVMVC.m */,
+				8367CAA52248B1510024316D /* MVVMViewModel.h */,
+				8367CAA62248B1510024316D /* MVVMViewModel.m */,
+			);
+			path = 13.MVVM;
+			sourceTree = "<group>";
+		};
+		83741B3F22432ED400D767A9 /* 9.RACTupleAndRACSequence */ = {
+			isa = PBXGroup;
+			children = (
+				83741B4022432F0200D767A9 /* RACTupleAndSequence.h */,
+				83741B4122432F0200D767A9 /* RACTupleAndSequence.m */,
+			);
+			path = 9.RACTupleAndRACSequence;
 			sourceTree = "<group>";
 		};
 		83767E67224230FE0004D3E4 /* 8.RACBind */ = {
@@ -214,14 +284,19 @@
 		83F7987A223B915C00EA7D99 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
-				83767E67224230FE0004D3E4 /* 8.RACBind */,
-				83A56CF52240B4E300A1A164 /* 7.RACCommand */,
-				83A56CEE2240878100A1A164 /* 6. RACMulticastConnection */,
+				830F1AA922489D2D00C409A9 /* 13.MVVM */,
+				830F1AA5224872F200C409A9 /* 12.过滤 */,
 				83F798AD223F31D400EA7D99 /* 1.RACSignal */,
 				83F036F8223F698000C194D8 /* 2. RACDisposable */,
 				83F03703223F772600C194D8 /* 3.RACSubjectAndRACReplaySubject */,
 				83A56CE0223F84C100A1A164 /* 4.RACUsage */,
 				83A56CEA22407D1200A1A164 /* 5.RACTimer */,
+				83A56CEE2240878100A1A164 /* 6. RACMulticastConnection */,
+				83A56CF52240B4E300A1A164 /* 7.RACCommand */,
+				83767E67224230FE0004D3E4 /* 8.RACBind */,
+				83741B3F22432ED400D767A9 /* 9.RACTupleAndRACSequence */,
+				830F1A9D2248640900C409A9 /* 10.rac_liftSelector */,
+				830F1AA12248690800C409A9 /* 11. FlattenMapAndMap */,
 				83F7987B223B915C00EA7D99 /* AppDelegate.h */,
 				83F7987C223B915C00EA7D99 /* AppDelegate.m */,
 				83F79884223B915D00EA7D99 /* Assets.xcassets */,
@@ -281,6 +356,7 @@
 				83F79874223B915C00EA7D99 /* Sources */,
 				83F79875223B915C00EA7D99 /* Frameworks */,
 				83F79876223B915C00EA7D99 /* Resources */,
+				1387615190DB3C1C75BB1B90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -397,6 +473,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1387615190DB3C1C75BB1B90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RACDemo/Pods-RACDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RACDemo/Pods-RACDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		69BC657E184D028F6C30E5AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,15 +525,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F79880223B915C00EA7D99 /* ViewController.m in Sources */,
+				830F1AAF22489D9B00C409A9 /* MVVMVC.m in Sources */,
 				83CE4EF02240DF9600C773CB /* RACCommandViewModel.m in Sources */,
 				83767E6A224231310004D3E4 /* RACBingVC.m in Sources */,
 				83A56CF82240B50100A1A164 /* RACCommandVC.m in Sources */,
 				83F798B0223F320400EA7D99 /* RACSignalVC.m in Sources */,
+				830F1AA82248735D00C409A9 /* FiltrationVC.m in Sources */,
 				83F7988B223B915D00EA7D99 /* main.m in Sources */,
 				83A56CE3223F850500A1A164 /* RACUsagVC.m in Sources */,
+				830F1AA02248645B00C409A9 /* LiftSelectorVC.m in Sources */,
+				830F1AA42248694700C409A9 /* FlatterAndMapVC.m in Sources */,
 				83A56CF42240886C00A1A164 /* RACMulticastConnectionVC.m in Sources */,
+				83741B4222432F0200D767A9 /* RACTupleAndSequence.m in Sources */,
+				830F1AAC22489D8700C409A9 /* MVVMView.m in Sources */,
 				83F03706223F773700C194D8 /* RACSubjectAndRACReplaySubjectVC.m in Sources */,
 				83A56CED22407E0D00A1A164 /* RACTimerVC.m in Sources */,
+				8367CAA72248B1510024316D /* MVVMViewModel.m in Sources */,
 				83F036FB223F69A100C194D8 /* RACDisposableVC.m in Sources */,
 				83A56CE9223F86C400A1A164 /* UsageView.m in Sources */,
 				83F7987D223B915C00EA7D99 /* AppDelegate.m in Sources */,

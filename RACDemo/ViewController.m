@@ -57,7 +57,12 @@ static UIColor* ljjRandomColor() {
                         @"RACTimerVC",
                         @"RACMulticastConnectionVC",
                         @"RACCommandVC",
-                        @"RACBingVC"];
+                        @"RACBingVC",
+                        @"RACTupleAndSequence",
+                        @"LiftSelectorVC",
+                        @"FlatterAndMapVC",
+                        @"FiltrationVC",
+                        @"MVVMVC"];
     reloadDataBlock();
 }
 
