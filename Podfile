@@ -15,4 +15,6 @@ target 'RACDemo' do
     pod 'Masonry', '1.0.2'
     pod 'MMProgressHUD', '0.3.2'
     pod 'SDWebImage', '3.8.2'
+    pod 'CommonElement'
+    pod 'YYModel'
 end

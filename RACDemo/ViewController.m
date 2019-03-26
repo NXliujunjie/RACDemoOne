@@ -62,7 +62,8 @@ static UIColor* ljjRandomColor() {
                         @"LiftSelectorVC",
                         @"FlatterAndMapVC",
                         @"FiltrationVC",
-                        @"MVVMVC"];
+                        @"MVVMVC",
+                        @"MVVMHomeVC"];
     reloadDataBlock();
 }
 

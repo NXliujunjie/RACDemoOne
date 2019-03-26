@@ -14,6 +14,20 @@
 		830F1AAC22489D8700C409A9 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AAB22489D8700C409A9 /* MVVMView.m */; };
 		830F1AAF22489D9B00C409A9 /* MVVMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F1AAE22489D9B00C409A9 /* MVVMVC.m */; };
 		8367CAA72248B1510024316D /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAA62248B1510024316D /* MVVMViewModel.m */; };
+		8367CAAB2249B1FF0024316D /* MVVMHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAAA2249B1FF0024316D /* MVVMHomeVC.m */; };
+		8367CAAE2249B2160024316D /* MVVMHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAAD2249B2160024316D /* MVVMHomeViewModel.m */; };
+		8367CAB32249B6E60024316D /* LJJNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAB22249B6E60024316D /* LJJNetWork.m */; };
+		8367CAB62249B7780024316D /* LJJAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAB52249B7780024316D /* LJJAPIClient.m */; };
+		8367CAB92249BDA70024316D /* LJJServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAB82249BDA70024316D /* LJJServerConfig.m */; };
+		8367CABD2249C1250024316D /* LJJShowMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CABC2249C1250024316D /* LJJShowMessageView.m */; };
+		8367CAC02249C15D0024316D /* LJJUtilsMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CABF2249C15D0024316D /* LJJUtilsMethod.m */; };
+		8367CAC32249C1D90024316D /* LJJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAC22249C1D90024316D /* LJJRefreshGifHeader.m */; };
+		8367CAC62249C2570024316D /* LJJRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAC52249C2570024316D /* LJJRefreshGifFooter.m */; };
+		8367CAC92249C2960024316D /* LJJLBSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAC82249C2960024316D /* LJJLBSManager.m */; };
+		8367CACC2249F4250024316D /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CACB2249F4250024316D /* MVVMModel.m */; };
+		8367CACF224A003F0024316D /* MVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CACE224A003F0024316D /* MVVMCell.m */; };
+		8367CAD2224A034E0024316D /* LJJSignalNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAD1224A034E0024316D /* LJJSignalNetWork.m */; };
+		8367CADA224A16BA0024316D /* LJJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367CAD9224A16BA0024316D /* LJJBaseModel.m */; };
 		83741B4222432F0200D767A9 /* RACTupleAndSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 83741B4122432F0200D767A9 /* RACTupleAndSequence.m */; };
 		83767E6A224231310004D3E4 /* RACBingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83767E69224231310004D3E4 /* RACBingVC.m */; };
 		83A56CE3223F850500A1A164 /* RACUsagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A56CE2223F850500A1A164 /* RACUsagVC.m */; };
@@ -65,6 +79,35 @@
 		830F1AAE22489D9B00C409A9 /* MVVMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMVC.m; sourceTree = "<group>"; };
 		8367CAA52248B1510024316D /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
 		8367CAA62248B1510024316D /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		8367CAA92249B1FF0024316D /* MVVMHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMHomeVC.h; sourceTree = "<group>"; };
+		8367CAAA2249B1FF0024316D /* MVVMHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMHomeVC.m; sourceTree = "<group>"; };
+		8367CAAC2249B2160024316D /* MVVMHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMHomeViewModel.h; sourceTree = "<group>"; };
+		8367CAAD2249B2160024316D /* MVVMHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMHomeViewModel.m; sourceTree = "<group>"; };
+		8367CAB12249B6E60024316D /* LJJNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJNetWork.h; sourceTree = "<group>"; };
+		8367CAB22249B6E60024316D /* LJJNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJNetWork.m; sourceTree = "<group>"; };
+		8367CAB42249B7780024316D /* LJJAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJAPIClient.h; sourceTree = "<group>"; };
+		8367CAB52249B7780024316D /* LJJAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJAPIClient.m; sourceTree = "<group>"; };
+		8367CAB72249BDA70024316D /* LJJServerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJServerConfig.h; sourceTree = "<group>"; };
+		8367CAB82249BDA70024316D /* LJJServerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJServerConfig.m; sourceTree = "<group>"; };
+		8367CABB2249C1250024316D /* LJJShowMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJShowMessageView.h; sourceTree = "<group>"; };
+		8367CABC2249C1250024316D /* LJJShowMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJShowMessageView.m; sourceTree = "<group>"; };
+		8367CABE2249C15D0024316D /* LJJUtilsMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJUtilsMethod.h; sourceTree = "<group>"; };
+		8367CABF2249C15D0024316D /* LJJUtilsMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJUtilsMethod.m; sourceTree = "<group>"; };
+		8367CAC12249C1D90024316D /* LJJRefreshGifHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJRefreshGifHeader.h; sourceTree = "<group>"; };
+		8367CAC22249C1D90024316D /* LJJRefreshGifHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJRefreshGifHeader.m; sourceTree = "<group>"; };
+		8367CAC42249C2570024316D /* LJJRefreshGifFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJRefreshGifFooter.h; sourceTree = "<group>"; };
+		8367CAC52249C2570024316D /* LJJRefreshGifFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJRefreshGifFooter.m; sourceTree = "<group>"; };
+		8367CAC72249C2960024316D /* LJJLBSManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJLBSManager.h; sourceTree = "<group>"; };
+		8367CAC82249C2960024316D /* LJJLBSManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJLBSManager.m; sourceTree = "<group>"; };
+		8367CACA2249F4250024316D /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		8367CACB2249F4250024316D /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		8367CACD224A003F0024316D /* MVVMCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMCell.h; sourceTree = "<group>"; };
+		8367CACE224A003F0024316D /* MVVMCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMCell.m; sourceTree = "<group>"; };
+		8367CAD0224A034E0024316D /* LJJSignalNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJSignalNetWork.h; sourceTree = "<group>"; };
+		8367CAD1224A034E0024316D /* LJJSignalNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJSignalNetWork.m; sourceTree = "<group>"; };
+		8367CAD7224A13DB0024316D /* LJJModelMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJModelMethod.h; sourceTree = "<group>"; };
+		8367CAD8224A16BA0024316D /* LJJBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJBaseModel.h; sourceTree = "<group>"; };
+		8367CAD9224A16BA0024316D /* LJJBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJBaseModel.m; sourceTree = "<group>"; };
 		83741B4022432F0200D767A9 /* RACTupleAndSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTupleAndSequence.h; sourceTree = "<group>"; };
 		83741B4122432F0200D767A9 /* RACTupleAndSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTupleAndSequence.m; sourceTree = "<group>"; };
 		83767E68224231310004D3E4 /* RACBingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACBingVC.h; sourceTree = "<group>"; };
@@ -183,6 +226,73 @@
 			path = 13.MVVM;
 			sourceTree = "<group>";
 		};
+		8367CAA82249B11B0024316D /* 14.MVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8367CAA92249B1FF0024316D /* MVVMHomeVC.h */,
+				8367CAAA2249B1FF0024316D /* MVVMHomeVC.m */,
+				8367CAAC2249B2160024316D /* MVVMHomeViewModel.h */,
+				8367CAAD2249B2160024316D /* MVVMHomeViewModel.m */,
+				8367CACA2249F4250024316D /* MVVMModel.h */,
+				8367CACB2249F4250024316D /* MVVMModel.m */,
+				8367CACD224A003F0024316D /* MVVMCell.h */,
+				8367CACE224A003F0024316D /* MVVMCell.m */,
+			);
+			path = 14.MVVMDemo;
+			sourceTree = "<group>";
+		};
+		8367CAAF2249B66F0024316D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8367CAD3224A0F2B0024316D /* BaseModel */,
+				8367CABA2249C0FC0024316D /* Utils */,
+				8367CAB02249B67A0024316D /* NetWork */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8367CAB02249B67A0024316D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8367CAB12249B6E60024316D /* LJJNetWork.h */,
+				8367CAB22249B6E60024316D /* LJJNetWork.m */,
+				8367CAB42249B7780024316D /* LJJAPIClient.h */,
+				8367CAB52249B7780024316D /* LJJAPIClient.m */,
+				8367CAB72249BDA70024316D /* LJJServerConfig.h */,
+				8367CAB82249BDA70024316D /* LJJServerConfig.m */,
+				8367CAD0224A034E0024316D /* LJJSignalNetWork.h */,
+				8367CAD1224A034E0024316D /* LJJSignalNetWork.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8367CABA2249C0FC0024316D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8367CABB2249C1250024316D /* LJJShowMessageView.h */,
+				8367CABC2249C1250024316D /* LJJShowMessageView.m */,
+				8367CABE2249C15D0024316D /* LJJUtilsMethod.h */,
+				8367CABF2249C15D0024316D /* LJJUtilsMethod.m */,
+				8367CAC12249C1D90024316D /* LJJRefreshGifHeader.h */,
+				8367CAC22249C1D90024316D /* LJJRefreshGifHeader.m */,
+				8367CAC42249C2570024316D /* LJJRefreshGifFooter.h */,
+				8367CAC52249C2570024316D /* LJJRefreshGifFooter.m */,
+				8367CAC72249C2960024316D /* LJJLBSManager.h */,
+				8367CAC82249C2960024316D /* LJJLBSManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8367CAD3224A0F2B0024316D /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				8367CAD7224A13DB0024316D /* LJJModelMethod.h */,
+				8367CAD8224A16BA0024316D /* LJJBaseModel.h */,
+				8367CAD9224A16BA0024316D /* LJJBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
 		83741B3F22432ED400D767A9 /* 9.RACTupleAndRACSequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,8 +394,6 @@
 		83F7987A223B915C00EA7D99 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
-				830F1AA922489D2D00C409A9 /* 13.MVVM */,
-				830F1AA5224872F200C409A9 /* 12.过滤 */,
 				83F798AD223F31D400EA7D99 /* 1.RACSignal */,
 				83F036F8223F698000C194D8 /* 2. RACDisposable */,
 				83F03703223F772600C194D8 /* 3.RACSubjectAndRACReplaySubject */,
@@ -297,6 +405,9 @@
 				83741B3F22432ED400D767A9 /* 9.RACTupleAndRACSequence */,
 				830F1A9D2248640900C409A9 /* 10.rac_liftSelector */,
 				830F1AA12248690800C409A9 /* 11. FlattenMapAndMap */,
+				830F1AA5224872F200C409A9 /* 12.过滤 */,
+				830F1AA922489D2D00C409A9 /* 13.MVVM */,
+				8367CAA82249B11B0024316D /* 14.MVVMDemo */,
 				83F7987B223B915C00EA7D99 /* AppDelegate.h */,
 				83F7987C223B915C00EA7D99 /* AppDelegate.m */,
 				83F79884223B915D00EA7D99 /* Assets.xcassets */,
@@ -306,6 +417,7 @@
 				83F79881223B915C00EA7D99 /* Main.storyboard */,
 				83F7987E223B915C00EA7D99 /* ViewController.h */,
 				83F7987F223B915C00EA7D99 /* ViewController.m */,
+				8367CAAF2249B66F0024316D /* Lib */,
 			);
 			path = RACDemo;
 			sourceTree = "<group>";
@@ -525,21 +637,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F79880223B915C00EA7D99 /* ViewController.m in Sources */,
+				8367CADA224A16BA0024316D /* LJJBaseModel.m in Sources */,
 				830F1AAF22489D9B00C409A9 /* MVVMVC.m in Sources */,
+				8367CAAB2249B1FF0024316D /* MVVMHomeVC.m in Sources */,
 				83CE4EF02240DF9600C773CB /* RACCommandViewModel.m in Sources */,
+				8367CAC92249C2960024316D /* LJJLBSManager.m in Sources */,
+				8367CAC62249C2570024316D /* LJJRefreshGifFooter.m in Sources */,
 				83767E6A224231310004D3E4 /* RACBingVC.m in Sources */,
 				83A56CF82240B50100A1A164 /* RACCommandVC.m in Sources */,
+				8367CAC32249C1D90024316D /* LJJRefreshGifHeader.m in Sources */,
 				83F798B0223F320400EA7D99 /* RACSignalVC.m in Sources */,
 				830F1AA82248735D00C409A9 /* FiltrationVC.m in Sources */,
+				8367CACF224A003F0024316D /* MVVMCell.m in Sources */,
 				83F7988B223B915D00EA7D99 /* main.m in Sources */,
 				83A56CE3223F850500A1A164 /* RACUsagVC.m in Sources */,
+				8367CAB62249B7780024316D /* LJJAPIClient.m in Sources */,
+				8367CAB92249BDA70024316D /* LJJServerConfig.m in Sources */,
 				830F1AA02248645B00C409A9 /* LiftSelectorVC.m in Sources */,
 				830F1AA42248694700C409A9 /* FlatterAndMapVC.m in Sources */,
+				8367CAC02249C15D0024316D /* LJJUtilsMethod.m in Sources */,
+				8367CABD2249C1250024316D /* LJJShowMessageView.m in Sources */,
+				8367CAB32249B6E60024316D /* LJJNetWork.m in Sources */,
 				83A56CF42240886C00A1A164 /* RACMulticastConnectionVC.m in Sources */,
 				83741B4222432F0200D767A9 /* RACTupleAndSequence.m in Sources */,
+				8367CACC2249F4250024316D /* MVVMModel.m in Sources */,
 				830F1AAC22489D8700C409A9 /* MVVMView.m in Sources */,
 				83F03706223F773700C194D8 /* RACSubjectAndRACReplaySubjectVC.m in Sources */,
 				83A56CED22407E0D00A1A164 /* RACTimerVC.m in Sources */,
+				8367CAD2224A034E0024316D /* LJJSignalNetWork.m in Sources */,
+				8367CAAE2249B2160024316D /* MVVMHomeViewModel.m in Sources */,
 				8367CAA72248B1510024316D /* MVVMViewModel.m in Sources */,
 				83F036FB223F69A100C194D8 /* RACDisposableVC.m in Sources */,
 				83A56CE9223F86C400A1A164 /* UsageView.m in Sources */,
